@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>WowInSite
+            </title>
+            <link rel="stylesheet" href="homestyle.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+            </head>
+            <body>
+                <div class="menu-bar">
+                <ul>
+                    <li class="active"><a href="file:///D:/Client/my%20website/geng/homeindex.html#"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-language"></i>Program</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="file:///D:/Client/my%20website/geng/index.html">Javascript</a></li>
+                            <li><a href="file:///D:/Client/my%20website/geng/2index.html">Java</a></li>
+                            <li><a href="file:///D:/Client/my%20website/geng/3index.html">C++</a></li>
+                            <li><a href="file:///D:/Client/my%20website/geng/4index.html">Python</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li><a href="#"><i class="fa-solid fa-language"></i>Markup</a>
+                             <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="file:///D:/Client/my%20website/geng/index.html">Javascript</a></li>
+                            <li><a href="file:///D:/Client/my%20website/geng/2index.html">Java</a></li>
+                            <li><a href="file:///D:/Client/my%20website/geng/3index.html">C++</a></li>
+                            <li><a href="file:///D:/Client/my%20website/geng/4index.html">Python</a></li>
+                        </ul>
+                    </div></li>
+                    <li><a href="#"><i class="fa-solid fa-cubes"></i>Tester</a></li>
+                </ul>
+                    <div class="logo">
+                        <img src="1logo.png">
+                        <div class="information">
+                            <img src="1Dark Blue Modern Professional Technology Company Logo.png" class="onelogo">
+                            <div class="circle">
+                            <div class="feature one">
+                            <img src="power.png">
+                            <h1>Origin</h1>
+                            <p>ORIGIN</p>
+                            </div>
+                            <div class="feature two">
+                            <img src="question.png">
+                            <h1>What</h1>
+                            <p>WHAT</p>
+                            </div>
+                            <div class="feature three">
+                            <img src="history.png">
+                            <h1>History</h1>
+                            <p>HISTORY</p>
+                            </div>
+                            <div class="feature four">
+                            <img src="content-creator.png">
+                            <H1>Creator</H1>
+                            <p>HISTORY</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="controls">
+                        <img src="upload.png" id="upbtn">
+                        <h3>WHAT DO WE HAVE?</h3>
+                        <img src="upload.png" id="downbtn">
+                    </div>
+                </div>
+                </script>
+                </div>
+                </div>
+                <script>
+                    var circle = document.getElementById("circle");
+                    var upbtn = document.getElementById("upbtn");
+                    var downbtn = document.getElementById("downbtn");
+
+                    var rotateValue = circle.style.transform;
+                    var rotateSum;
+
+                    upbtn.onclick = function()
+                     {
+                        rotateSum = rotateValue + "rotate(-90deg)";
+                        circle.style.transform = rotateSum;
+                        rotateValue = rotateSum;
+                    }
+                    downbtn.onclick = function()
+                     {
+                        rotateSum = rotateValue + "rotate(90deg)";
+                        circle.style.transform = rotateSum;
+                        rotateValue = rotateSum;
+                    }
+                 </script>
+                </body>
+                </html>
